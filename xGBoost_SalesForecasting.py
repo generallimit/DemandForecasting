@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from xgboost import plot_importance
 
 # Import training and test data
-train = pd.read_csv('/home/jefferyp/Documents/projects/Retail_MLandRegressionTest/DemandForecasting/demand-forecasting-kernels-only/train.csv')
-test = pd.read_csv('/home/jefferyp/Documents/projects/Retail_MLandRegressionTest/DemandForecasting/demand-forecasting-kernels-only/test.csv')
+train = pd.read_csv('../DemandForecasting/demand_forecasting_test_train/train.csv')
+test = pd.read_csv('../DemandForecasting/demand_forecasting_test_train/test.csv')
 
 # DATES FEATURES
 def date_features(df):
